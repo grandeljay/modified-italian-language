@@ -1,0 +1,21 @@
+{
+    "archiveName": "grandeljay/italian-language",
+    "description": "Adds Italian translations.",
+    "developer": "grandeljay",
+    "name": "Italian Language",
+    "shortDescription": "Adds Italian translations.",
+    "developerWebsite": "https://github.com/grandeljay",
+    "website": "https://github.com/grandeljay/modified-italian-language",
+    "sourceDir": "src",
+    "version": "auto",
+    "category": "language",
+    "tags": "language, italian",
+    "price": "free",
+    "modifiedCompatibility": [
+        "2.0.7.2"
+    ],
+    "require": {
+        "composer/autoload": "^1.2.2",
+        "robinthehood/modified-std-module": "^0.6.3"
+    }
+}
