@@ -251,7 +251,7 @@ define('ENTRY_NEWSLETTER_YES', 'sottoscritto');
 define('ENTRY_NEWSLETTER_NO', 'Non registrato');
 define('ENTRY_MAIL_ERROR', 'La preghiamo di <span class="errorText">effettuare una selezione</span>');
 define('ENTRY_PASSWORD', 'Password (creata automaticamente)');
-define('ENTRY_PASSWORD_ERROR', ' <span class="errorText">La sua password deve essere almeno ' . (define('ENTRY_PASSWORD_MIN_LENGTH') ? ENTRY_PASSWORD_MIN_LENGTH : 0) . ' dei personaggi.</span>');
+define('ENTRY_PASSWORD_ERROR', ' <span class="errorText">La sua password deve essere almeno ' . (defined('ENTRY_PASSWORD_MIN_LENGTH') ? ENTRY_PASSWORD_MIN_LENGTH : 0) . ' dei personaggi.</span>');
 define('ENTRY_MAIL_COMMENTS', 'Testo aggiuntivo nell\'e-mail:');
 
 define('ENTRY_MAIL', 'Inviare e-mail protette da password ai clienti?');
