@@ -1,12 +1,18 @@
 # Changelog
 
-## 0.1.1 - 2023-01-05
+## v0.1.2 - 2023-01-05
 
 ### Fixed
 
-- Minor fixes
+-   Module initialisation
 
-## 0.1.0 - 2023-01-04
+## v0.1.1 - 2023-01-05
+
+### Fixed
+
+-   Minor fixes
+
+## v0.1.0 - 2023-01-04
 
 ### Added
 
