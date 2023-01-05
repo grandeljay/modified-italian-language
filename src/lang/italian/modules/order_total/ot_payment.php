@@ -8,7 +8,7 @@
  * @package GrandelJayItalianLanguage
  */
 
-define('MODULE_ORDER_TOTAL_PAYMENT_HELP_LINK', ' <a onclick="window.open(\'popup_help.php?type=order_total&modul=ot_payment&lng=french\', \'Hilfe\', \'scrollbars=yes,resizable=yes,menubar=yes,width=800,height=600\'); return false" target="_blank" href="popup_help.php?type=order_total&modul=ot_payment&lng=french"><b>[AIUTO]</b></a>');
+define('MODULE_ORDER_TOTAL_PAYMENT_HELP_LINK', ' <a onclick="window.open(\'popup_help.php?type=order_total&modul=ot_payment&lng=italian\', \'Hilfe\', \'scrollbars=yes,resizable=yes,menubar=yes,width=800,height=600\'); return false" target="_blank" href="popup_help.php?type=order_total&modul=ot_payment&lng=italian"><b>[AIUTO]</b></a>');
 define(
     'MODULE_ORDER_TOTAL_PAYMENT_HELP_TEXT',
     '<h2>Sconto e sovrapprezzo sui tipi di pagamento</h2>
