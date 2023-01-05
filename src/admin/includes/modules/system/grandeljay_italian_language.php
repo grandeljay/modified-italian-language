@@ -14,7 +14,7 @@ require_once DIR_FS_DOCUMENT_ROOT . '/vendor-no-composer/autoload.php';
 
 class grandeljay_italian_language extends StdModule
 {
-    public const VERSION = '0.1.1';
+    public const VERSION = '0.1.2';
 
     public function __construct()
     {
