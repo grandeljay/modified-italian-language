@@ -23,6 +23,8 @@ class grandeljay_italian_language extends StdModule
         } else {
             $this->init('MODULE_' . strtoupper(self::class));
         }
+
+        $this->checkForUpdate(true);
     }
 
     public function display()
@@ -47,6 +49,17 @@ class grandeljay_italian_language extends StdModule
         );
 
         xtc_db_perform(TABLE_LANGUAGES, $sql_data_array);
+    }
+
+    protected function updateSteps()
+    {
+        if (-1 === version_compare($this->getVersion(), self::VERSION)) {
+            $this->setVersion(self::VERSION);
+
+            return self::UPDATE_SUCCESS;
+        }
+
+        return self::UPDATE_NOTHING;
     }
 
     public function remove()
