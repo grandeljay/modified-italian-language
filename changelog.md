@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.1.3 - 2023-01-13
+
+### Fixed
+
+-   Wrong filename in `/lang/italian/modules/system`
+-   Module update not triggering
+
 ## v0.1.2 - 2023-01-05
 
 ### Fixed
