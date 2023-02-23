@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.4 - 2023-02-23
+
+### Fixed
+
+-   Various minor fixes
+
 ## v0.1.3 - 2023-01-13
 
 ### Fixed

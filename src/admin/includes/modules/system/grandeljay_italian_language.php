@@ -15,7 +15,7 @@ use RobinTheHood\ModifiedStdModule\Classes\StdModule;
 
 class grandeljay_italian_language extends StdModule
 {
-    public const VERSION = '0.1.3';
+    public const VERSION = '0.1.4';
 
     public function __construct()
     {
