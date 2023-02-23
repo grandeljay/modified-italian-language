@@ -6,6 +6,9 @@
  * @author  Jay Trees <italian-language@grandels.email>
  * @link    https://github.com/grandeljay/modified-italian-language
  * @package GrandelJayItalianLanguage
+ *
+ * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
+ * @phpcs:disable Squiz.Classes.ValidClassName.NotCamelCaps
  */
 
 use RobinTheHood\ModifiedStdModule\Classes\StdModule;
