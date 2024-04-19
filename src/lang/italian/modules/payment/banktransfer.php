@@ -12,7 +12,7 @@ define('MODULE_PAYMENT_BANKTRANSFER_TEXT_TITLE', 'Flusso diretto');
 define('MODULE_PAYMENT_BANKTRANSFER_TEXT_DESCRIPTION', 'Flusso diretto');
 define('MODULE_PAYMENT_BANKTRANSFER_TEXT_INFO', '');
 define('MODULE_PAYMENT_BANKTRANSFER_TEXT_BANK', 'Flusso diretto');
-define('MODULE_PAYMENT_BANKTRANSFER_TEXT_EMAIL_FOOTER', defined('MODULE_PAYMENT_BANKTRANSFER_URL_NOTE') ? 'Nota: può scaricare il nostro modulo fax all\'indirizzo ' . HTTP_SERVER . DIR_WS_CATALOG . MODULO_PAYMENT_TRANSFER_BANK_URL_NOTE . 'e ce lo rispedisca completato.');
+define('MODULE_PAYMENT_BANKTRANSFER_TEXT_EMAIL_FOOTER', defined('MODULE_PAYMENT_BANKTRANSFER_URL_NOTE') ? 'Nota: può scaricare il nostro modulo fax all\'indirizzo ' . HTTP_SERVER . DIR_WS_CATALOG . MODULO_PAYMENT_TRANSFER_BANK_URL_NOTE . 'e ce lo rispedisca completato.' : '');
 define('MODULE_PAYMENT_BANKTRANSFER_TEXT_BANK_INFO', ((defined('MODULE_PAYMENT_BANKTRANSFER_IBAN_ONLY') && 'True' != MODULE_PAYMENT_BANKTRANSFER_IBAN_ONLY) ? 'La preghiamo di notare che l\'addebito diretto senza IBAN/BIC <b>è</b> possibile <b>solo</b> da un <b>conto corrente tedesco</b>. Specificando l\'IBAN/BIC, può utilizzare la procedura di addebito diretto <b>in tutta l\'UE</b>.<br/>' : '') . 'I campi contrassegnati con (*) sono obbligatori. Per un IBAN tedesco, il BIC è opzionale.<br/><br/>');
 define('MODULE_PAYMENT_BANKTRANSFER_TEXT_BANK_OWNER', 'Titolare del conto:*');
 define('MODULE_PAYMENT_BANKTRANSFER_TEXT_BANK_OWNER_EMAIL', 'Titolare dell\'account e-mail:*');
