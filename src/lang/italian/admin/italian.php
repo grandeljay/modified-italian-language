@@ -260,7 +260,7 @@ define('NO', 'no');
 define('SAVE_ENTRY', 'Cambiamenti nella registrazione?');
 define('TEXT_CHOOSE_INFO_TEMPLATE', 'Modello di dettaglio dell\'articolo');
 define('TEXT_CHOOSE_OPTIONS_TEMPLATE', 'Opzioni di modello per gli articoli');
-define('TEXT_SELECT', 'Per favore, selezioni -- Per favore, selezioni -- Per favore, selezioni -- Per favore, selezioni -- Per favore.');
+define('TEXT_SELECT', '-- Per favore, selezioni --');
 define('PULL_DOWN_DEFAULT', 'Si prega di selezionare');
 
 define('ICON_ARROW_RIGHT', 'marche');
